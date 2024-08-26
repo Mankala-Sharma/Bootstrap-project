@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour O Maker</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/testimonials/testimonial-3/assets/css/testimonial-3.css">
+  <!-- font-awesome Cdn -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+   <!-- Google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:wght@100;400;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo"> <img src="./images/logo.png" alt="" width="70px">Tour<span> 0 </span>Maker</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span> <i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Home Section Start -->
+
+      <div class="home">
+        <div class="content">
+          <h5>Explore the Colourful World With Us</h5>
+          <h1>Visit<span class="changecontent"></span></h1>
+          <p>Holiday Packages and Special Tours Deals</p>
+          <a href="#about">Book Now</a>
+        </div>
+      </div>
+
+       <!-- Home Section End-->
+
+       <!-- Section Booking Start -->
+      <section class="book" id="book">
+      <div class="container">
+
+        <div class="main-text">
+          <h1><span>E</span>nquiry Your Tour</h1>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-6 py-5 py-md-3">
+            <div class="card">
+              <img src="./images/booking-1.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+           
+            <form action="#">
+              <div >
+            <label><span class="fa fa-user" aria-hidden="true"></span> Traveller Name</label><br>
+              <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div >
+            <label><span class="fa fa-phone fa-xm" aria-hidden="true"></span> Phone No.</label>
+              <input type="number" class="form-control" placeholder="Your Phone No." required>
+            </div>
+            <div >
+              <label><span class="fa fa-envelope fa-xm"></span> Email</label>
+              <input type="number" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div >
+              <label><span class="fa fa-user" aria-hidden="true"></span> Number of Traveller</label>
+              <input type="number" class="form-control" placeholder="Number of Traveller" required>
+            </div>
+            <div >
+              <label><span class="fa fa-bus" aria-hidden="true"></span> Trip in</label>
+              <input type="date" class="form-control" placeholder="Travel Start Date" required>
+            </div>
+            <div >
+              <label><span class="fa fa-bus" aria-hidden="true"></span> Trip out</label>
+              <input type="date" class="form-control" placeholder="Travel Start Date" required>
+            </div>
+            <div >
+              <label><span class="fa fa-map-marker" aria-hidden="true"></span> Tour place</label>
+              <select class="form-control" name="place" id="place">
+                              <option>Destination</option>
+                              <option value="Shimla">Shimla</option>
+                              <option value="Manali">Manali</option>
+                              <option value="Dharamsala">Dharamsala</option>
+                              <option value="Dalhousie">Dalhousie</option>
+                              <option value="Kerala">Kerala</option>
+                              <option value="Goa">Goa</option>
+                              <option value="Nainital">Nainital</option>
+                              <option value="Mussorie">Mussorie</option>
+                              <option value="Ooty">Ooty</option>
+                              <option value="Coorg">Coorg</option>
+                              <option value="Singapore">Singapore</option>
+                              <option value="Malaysia">Malaysia</option>
+                              <option value="Dubai">Dubai</option>
+                              <option value="Thailand">Thailand</option>
+                              <option value="Bali">Bali</option>
+                              <option value="Nepal">Nepal</option>
+                              <option value="Bhutan">Bhutan</option>
+              </select>
+            </div>
+            <div >
+            <input type= "submit" value="Book Now" class="submit" required>
+            </div>
+
+            </form>
+        
+
+        </div>
+      </div>
+    </section>
+   <!-- Section Booking End -->
+
+
+    <!-- About Start -->
+     <section class="about" id="about">
+    <div class="container py-5">
+      <div class="main-txt">
+        <h1>About <span>Us</span></h1>
+      </div>
+      <div class="container pt-5">
+          <div class="row">
+              <div class="col-lg-6" style="min-height: 500px;">
+                  <div class=" card position-relative h-100">
+                      <img class="position-absolute w-100 h-100" src="./images/about.jpg" style="object-fit: cover;">
+                  </div>
+              </div>
+              <div class="col-lg-6 pt-5 pb-lg-5">
+                  <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+                      <h6 class="text-uppercase" style="letter-spacing: 5px;">Tour O Maker</h6>
+                      <h1 class="mb-3">One Stop Solutions For all Your Travel Needs.</h1>
+                      <p> We are committed to serve customers with professional care and give them optimum satisfaction. We inspire people to travel and explore to further enrich their lives. We aim to meet and supersede all tourism requirements by using advance technology to ensure a fast and efficient service to our clients.</p>
+                    
+                      <button id="about-btn">Read More...</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- About End-->
+
+<!-- Package Section Start-->
+
+<section class="packages" id="packages">
+  <div class="container">
+    
+    <div class="main-txt">
+      <h1><span>P</span>ackages</h1>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <img src="./images/himachal.jpg" alt="">
+          <div class="card-body">
+            <h3>Himachal Pradesh</h3>
+            <p>Himanchal Pradesh is the Land full of Natural Beauty,Adventure,Culture,Romantic Climate etc.Its also the House of Dalai Lama.
+              </p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star "></i>
+              <i class="fa-solid fa-star "></i>
+            </div>
+            <h6>Price: INR <strong>4999/-</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <img src="./images/kedarnath1.jpg" alt="">
+          <div class="card-body">
+            <h3>Uttrakhand</h3>
+            <p>Also know as Land of Gods (Dev Bhoomi). Famous for Natural Beauty,Romantic Climate,Yoga,Char Dham,Holy Rivers etc</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star "></i>
+              <i class="fa-solid fa-star "></i>
+            </div>
+            <h6>Price: INR <strong>9500/-</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <img src="./images/jammu.jpg" alt="">
+          <div class="card-body">
+            <h3>Jammu & Kashmir</h3>
+            <p>Jammu & Kashmir also Known as Paradise on Earth. Famous for Mata Vaishno Devi,Baba Amarnath,Snow,Romantic Climate,Dal lake etc.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star "></i>
+              <i class="fa-solid fa-star "></i>
+            </div>
+            <h6>Price: INR <strong>10500/-</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+
+    <div class="row" style="margin-top: 30px;">
+
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <img src="./images/burj-khalifa.jpg" alt="">
+          <div class="card-body">
+            <h3>Dubai</h3>
+            <p>Dubai is famous for sightseeing attractions such as the Burj Khalifa, Dubai Aquarium and Underwater Zoo, Global Village, Ski Dubai and Wadi Wadi Adventure Park.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star "></i>
+              <i class="fa-solid fa-star "></i>
+            </div>
+            <h6>Price: <strong>$500</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <img src="./images/thailand-2707555_640.jpg" alt="">
+          <div class="card-body">
+            <h3>Thailand</h3>
+            <p>Thailand is famous for iconic stunning islands in the south, thousands of Buddhist temples like the White Temple in Chiang Rai, Wat Phra Kaew in Bangkok.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star "></i>
+              <i class="fa-solid fa-star "></i>
+            </div>
+            <h6>Price: <strong>$500</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <img src="./images/singapore.jpg" alt="">
+          <div class="card-body">
+            <h3>Singapore</h3>
+            <p>Singapore is also known as “Lion City” or “Garden City”. It is having a world-class city airport with a waterfall, and a Botanic Garden that is a World Heritage Site.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star "></i>
+              <i class="fa-solid fa-star "></i>
+            </div>
+            <h6>Price: <strong>$500</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+</section>
+<!-- Package Section End-->
+
+ <!-- Section Services Start -->
+ <section class="services" id="services">
+  <div class="container">
+
+    <div class="main-txt">
+      <h1><span>S</span>ervices</h1>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-hotel"></i>
+          <div class="card-body">
+            <h3>Affordable Hotel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-utensils"></i>
+          <div class="card-body">
+            <h3>Food & Drinks</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-bullhorn"></i>
+          <div class="card-body">
+            <h3>Safty Guide</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+    <div class="row" style="margin-top: 30px;">
+
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-globe-asia"></i>
+          <div class="card-body">
+            <h3>Around The World</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-plane"></i>
+          <div class="card-body">
+            <h3>Fastest Travel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-hiking"></i>
+          <div class="card-body">
+            <h3>Adventures</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+</section>
+<!-- Section Services End -->
+
+ 
+
+ <!-- Review section Start -->
+<section class="testimonial bg-light py-5 py-xl-8">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 ">
+        <h2 class="fs-6 text-secondary mb-2 text-uppercase text-center  main-txt"> <span>Happy</span> Customers</h2>
+        <p class="mb-4 mb-md-5 text-center">We deliver what we promise. See what clients are expressing about us.</p>
+        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+      </div>
+    </div>
+  </div>
+
+  <div class="container overflow-hidden">
+    <div class="row gy-4 gy-md-0 gx-xxl-5">
+      <div class="col-12 col-md-4">
+        <div class="card border-0 border-bottom border-primary shadow-sm">
+          <div class="card-body p-4 p-xxl-5">
+            <figure>
+              <img class="img-fluid rounded rounded-circle mb-4 border border-5" loading="lazy" src="./images/men.jpg" alt="customers">
+              <figcaption>
+                <div class="bsb-ratings text-warning mb-3" data-bsb-star="5" data-bsb-star-off="0"></div>
+                <blockquote class="bsb-blockquote-icon mb-4">It was amazing experience with Tour O Maker. Driver was good and entire trip was organized smoothly from pick up location and then drop. Overall it was really good experience.</blockquote>
+                <h4 class="mb-2">PixelRajeev</h4>
+                <!-- <h5 class="fs-6 text-secondary mb-0">UX Designer</h5> -->
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="card border-0 border-bottom border-primary shadow-sm">
+          <div class="card-body p-4 p-xxl-5">
+            <figure>
+              <img class="img-fluid rounded rounded-circle mb-4 border border-5" loading="lazy" src="./images/women.jpg" alt="customers">
+                <div class="bsb-ratings text-warning mb-3" data-bsb-star="4" data-bsb-star-off="1"></div>
+                <blockquote class="bsb-blockquote-icon mb-4">Right from the day we started till our journey end all things were taken care  very nicely.
+                  The driver was amazing and all hotels were nice. 
+                  Thanks once again for making our tour memorable.</blockquote>
+                <h4 class="mb-2">Hiral Amin</h4>
+                <!-- <h5 class="fs-6 text-secondary mb-0">Marketing Specialist</h5> -->
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="card border-0 border-bottom border-primary shadow-sm">
+          <div class="card-body p-4 p-xxl-5">
+            <figure>
+              <img class="img-fluid rounded rounded-circle mb-4 border border-5" loading="lazy" src="./images/men.jpg" alt="customers">
+              <figcaption>
+                <div class="bsb-ratings text-warning mb-3" data-bsb-star="5" data-bsb-star-off="0"></div>
+                <blockquote class="bsb-blockquote-icon mb-4">Tour O Maker has provided an excellent service throughout our Uttarakhand tour. The hospitality and the day to day updates and feed back were so good which made our tour haslefree. </blockquote>
+                <h4 class="mb-2">Eunni srinivas</h4>
+                <!-- <h5 class="fs-6 text-secondary mb-0">Sales Manager</h5> -->
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Review section End-->
+
+<!-- Section Gallary Start -->
+<section class="gallary" id="gallery">
+  <div class="container">
+
+    <div class="main-txt">
+      <h1><span>G</span>allery</h1>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/g1.png" alt="" height="230px">
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/g2.png" alt="" height="230px">
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/g3.png" alt="" height="230px">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/g4.png" alt="" height="230px">
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/g5.png" alt="" height="230px">
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/g6.png" alt="" height="230px">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Section Gallary End -->
+
+
+
+<!-- Footer Start -->
+<footer id="footer">
+  <h1>Tour<span> O </span>Maker</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus fugiat, ipsa quos nulla qui alias.</p>
+        <div class="social-links">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-pinterest-p"></i>
+        </div>  
+    <div class="copyright">
+    <p>&copy;Copyright TOUR O MAKER. All Rights Reserved</p>
+    </div>
+  
+</footer>
+<!-- Footer End -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
